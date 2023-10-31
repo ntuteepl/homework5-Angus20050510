@@ -8,7 +8,7 @@ int main()
     scanf("%d",&i);
     if(i>0){
         if(i>1500){
-            m=i*0.81*0.79;
+            m=i*0.9*0.79;
             printf("%.1lf",m);
         }
         else if(i<=1500 && i>800){
@@ -22,3 +22,4 @@ int main()
     }
     return 0;
 }
+
